@@ -13,7 +13,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent.parent
 
 START_YEAR, START_QUARTER = (2024, 3)
 CURRENT_YEAR, CURRENT_QUARTER     = (datetime.datetime.now().year, (datetime.datetime.now().month - 1) // 3 + 1)
-DATA_FOLDER = SCRIPT_DIR / "data_dir"
+DATA_FOLDER = SCRIPT_DIR / "data_dir_2024"
 
 # Repo for all intermediate and final files from the SEC's EDGAR system
 DATA_FOLDER.mkdir(parents=True, exist_ok=True)

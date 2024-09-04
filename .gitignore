@@ -13,8 +13,8 @@ __pycache__/
 *.idx
 
 # Include .csv and .txt files in the root directory
-!/*.csv
-!/*.txt
-!/orig/*.csv
-!/orig/*.txt
+# !/*.json
+# !/*.txt
+# !/*/*.json
+# !/orig/*.txt
 

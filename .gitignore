@@ -12,9 +12,9 @@ __pycache__/
 *.txt
 *.idx
 
-# Include .csv and .txt files in the root directory
+# Include .json and .txt files in the root directory
 # !/*.json
 # !/*.txt
-# !/*/*.json
+!/archives/*.json
 # !/orig/*.txt
 

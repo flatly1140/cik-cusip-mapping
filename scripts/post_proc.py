@@ -114,7 +114,7 @@ def main():
     # Final output files
     DATA_FINAL.mkdir(parents=True, exist_ok=True)
     df.to_csv(f'{DATA_FINAL}/cik-cusip-maps.csv', index=False)
-    df.to_json(f'{DATA_FINAL}/cik-cusip-maps.json', index=False)
+    df.to_json(f'{DATA_FINAL}/cik-cusip-maps.json', orient='records')
 
 
 if __name__ == "__main__":

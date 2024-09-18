@@ -12,9 +12,11 @@ __pycache__/
 *.txt
 *.idx
 
-# Include .json and .txt files in the root directory
-# !/*.json
-# !/*.txt
+
+## But allow .csv and .txt files in the root directory, for example
 !/archives/*.json
-# !/orig/*.txt
+!*/tickers_needing_cusips.csv
+!*/tickers_needing_cusips.json
+# !/*.csv
+# !/*.txt
 

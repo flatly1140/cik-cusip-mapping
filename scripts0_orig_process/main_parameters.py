@@ -4,7 +4,7 @@ import datetime as datetime
 
 
 # Get the directory where the current script is located
-SCRIPT_DIR = Path(__file__).resolve().parent.parent
+SCRIPT_DIR = Path(__file__).resolve().parent
 
 # Default starting point for raw file downloads
 # START_YEAR, START_QUARTER = (1994, 1)

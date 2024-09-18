@@ -16,7 +16,8 @@ __pycache__/
 ## But allow .csv and .txt files in the root directory, for example
 !/archives/*.json
 !*/tickers_needing_cusips.csv
-!*/tickers_needing_cusips.json
+!**/cusip-ticker-map.csv
+!**/cusip-ticker-map.json
 # !/*.csv
 # !/*.txt
 

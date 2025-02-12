@@ -117,7 +117,8 @@ def build_url_list(start_year=2004, end_year=2024, current_date=None):
                 elif year == 2019 and month == 10 and p == 'a':
                     url = f"{url_stub4}{year}{month:02d}{p}_0.zip"  # idiosyncratic filename
                 elif year == 2020 and month in [2, 3, 4]:
-                    url == f"{url_stub4}{year}{month:02d}{p}.zip"   # idiosyncratic filenames
+                    url = f"{url_stub5}{year}{month:02d}{p}.zip"   # idiosyncratic filenames
+                    # e.g. url_stub5 = "https://www.sec.gov/files/node/add/data_distribution/cnsfails202002.zip"
                 else:
                     url = f"{url_stub4}{year}{month:02d}{p}.zip"
                     # e.g. url_stub4: https://www.sec.gov/files/data/fails-deliver-data/cnsfails201706b.zip
